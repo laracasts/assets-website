@@ -4,8 +4,10 @@
             Meet "Lary"
         </h1>
 
-        <div class="flex mb-12">
-            <div class="mr-8 flex flex-col items-center">
+        <div
+            class="flex flex-col items-center text-center lg:flex-row lg:text-left mb-12"
+        >
+            <div class="lg:mr-8 flex flex-col items-center">
                 <img
                     src="/images/mascot/larydefault.svg"
                     alt="Laracasts Default Mascot"
@@ -21,17 +23,17 @@
                 </a>
             </div>
 
-            <p class="leading-relaxed w-64 mt-8">
+            <p class="leading-relaxed w-64 mt-8 lg:-mt-8">
                 Quirky. Dynamic. Smartsy. He’s got it all. Who wouldn’t want
                 him?
             </p>
         </div>
 
-        <div class="flex">
+        <div class="lg:flex">
             <!-- larypeek.svg -->
             <div
                 style="width: 153px; height: 219px;"
-                class="border border-grey-lighter rounded-lg flex flex-col items-center justify-center pt-6 pb-6 px-8 mr-6"
+                class="border border-grey-lighter rounded-lg flex flex-col items-center justify-center pt-6 pb-6 px-8 mx-auto mb-6 lg:mb-0 lg:ml-0 lg:mr-6"
             >
                 <a href="/images/mascot/larypeek.svg" class="mb-5 mt-auto">
                     <img
@@ -51,7 +53,7 @@
             <!-- larywink -->
             <div
                 style="width: 153px; height: 219px;"
-                class="border border-grey-lighter rounded-lg flex flex-col items-center justify-center pt-6 pb-6 px-8 mr-6"
+                class="border border-grey-lighter rounded-lg flex flex-col items-center justify-center pt-6 pb-6 px-8 mx-auto mb-6 lg:mb-0 lg:ml-0 lg:mr-6"
             >
                 <a href="/images/mascot/larywink.svg" class="mb-5 mt-auto">
                     <img
@@ -71,7 +73,7 @@
             <!-- larysmart -->
             <div
                 style="width: 153px; height: 219px;"
-                class="border border-grey-lighter rounded-lg flex flex-col items-center justify-center pt-6 pb-6 px-8 mr-6"
+                class="border border-grey-lighter rounded-lg flex flex-col items-center justify-center pt-6 pb-6 px-8 mx-auto mb-6 lg:mb-0 lg:ml-0 lg:mr-6"
             >
                 <a href="/images/mascot/larysmart.svg" class="mb-5 mt-auto">
                     <img
@@ -91,7 +93,7 @@
             <!-- larylab -->
             <div
                 style="width: 153px; height: 219px;"
-                class="border border-grey-lighter rounded-lg flex flex-col items-center justify-center pt-6 pb-6 px-8"
+                class="border border-grey-lighter rounded-lg flex flex-col items-center justify-center pt-6 pb-6 px-8 mx-auto mb-6 lg:mb-0 lg:mx-0"
             >
                 <a href="/images/mascot/larylab.svg" class="mb-5 mt-auto">
                     <img

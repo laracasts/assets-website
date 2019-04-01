@@ -19,10 +19,10 @@
 			</h1>
 		</header>
 
-		<div class="section pb-10">
+		<div class="section pb-8 lg:pb-10">
 			<div class="container">
-				<main class="flex">
-					<aside class="w-64 pt-8 flex-no-shrink">
+				<main class="lg:flex">
+					<aside class="lg:w-64 lg:pt-8 flex-no-shrink mb-10 lg:mb-0">
 						<div class="mb-10">
 							<h5 class="uppercase font-bold mb-5 text-base">The Brand</h5>
 
@@ -54,6 +54,6 @@
 		</div>
 	</div>
 
-	<script src="/js/app.js?v=2"></script>
+	<script src="/js/app.js?v=3"></script>
 </body>
 </html>

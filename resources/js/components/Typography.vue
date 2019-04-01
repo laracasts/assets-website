@@ -5,7 +5,7 @@
         </h1>
 
         <div
-            class="rounded-lg bg-grey-lightest py-12 px-16 mb-10"
+            class="rounded-lg bg-grey-lightest p-6 lg:py-12 lg:px-16 mb-10"
             style="max-width: 522px"
         >
             <div class="flex justify-end mb-10 items-center">
@@ -37,7 +37,7 @@
         </div>
 
         <div
-            class="rounded-lg bg-black text-white py-12 px-16 mb-8"
+            class="rounded-lg bg-black text-white p-6 lg:py-12 lg:px-16"
             style="max-width: 522px"
         >
             <div class="flex justify-end mb-10 items-center">

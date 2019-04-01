@@ -135,7 +135,7 @@
         </div>
 
         <!-- Inspire Me -->
-        <div class="mb-12" style="max-width: 439px">
+        <div style="max-width: 439px">
             <a href="/images/wallpapers/inspire-me.png">
                 <img
                     src="/images/wallpapers/thumbnails/inspire-me.png"
