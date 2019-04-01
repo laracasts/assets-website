@@ -12,7 +12,11 @@
                     class="mb-4"
                 />
 
-                <a href="/images/mascot/larydefault.svg" class="button">
+                <a
+                    href="/images/mascot/larydefault.svg"
+                    class="button"
+                    download
+                >
                     larydefault.svg
                 </a>
             </div>
@@ -38,7 +42,8 @@
 
                 <a
                     href="/images/mascot/larypeek.svg"
-                    class="text-grey text-2xs hover:underline mt-auto"
+                    class="text-grey font-semibold text-2xs hover:underline mt-auto"
+                    download
                     >larypeek.svg</a
                 >
             </div>
@@ -57,7 +62,8 @@
 
                 <a
                     href="/images/mascot/larywink.svg"
-                    class="text-grey text-2xs hover:underline mt-auto"
+                    class="text-grey font-semibold text-2xs hover:underline mt-auto"
+                    download
                     >larywink.svg</a
                 >
             </div>
@@ -76,7 +82,8 @@
 
                 <a
                     href="/images/mascot/larysmart.svg"
-                    class="text-grey text-2xs hover:underline mt-auto"
+                    class="text-grey font-semibold text-2xs hover:underline mt-auto"
+                    download
                     >larysmart.svg</a
                 >
             </div>
@@ -96,7 +103,8 @@
 
                 <a
                     href="/images/mascot/larylab.svg"
-                    class="text-grey text-2xs hover:underline mt-auto"
+                    class="text-grey font-semibold text-2xs hover:underline mt-auto"
+                    download
                     >larylab.svg</a
                 >
             </div>

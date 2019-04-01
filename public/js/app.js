@@ -505,6 +505,22 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
@@ -518,6 +534,10 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
 //
 //
 //
@@ -659,6 +679,10 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
@@ -672,6 +696,14 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -893,6 +925,26 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -1767,7 +1819,7 @@ var staticRenderFns = [
             "a",
             {
               staticClass: "button",
-              attrs: { href: "/images/illustrations/clarity.svg" }
+              attrs: { href: "/images/illustrations/clarity.svg", download: "" }
             },
             [_vm._v("\n                clarity.svg\n            ")]
           )
@@ -1814,7 +1866,7 @@ var staticRenderFns = [
             "a",
             {
               staticClass: "button",
-              attrs: { href: "/images/illustrations/fun.svg" }
+              attrs: { href: "/images/illustrations/fun.svg", download: "" }
             },
             [_vm._v("\n                fun.svg\n            ")]
           )
@@ -1861,7 +1913,10 @@ var staticRenderFns = [
             "a",
             {
               staticClass: "button",
-              attrs: { href: "/images/illustrations/experiment.svg" }
+              attrs: {
+                href: "/images/illustrations/experiment.svg",
+                download: ""
+              }
             },
             [_vm._v("\n                experiment.svg\n            ")]
           )
@@ -1908,7 +1963,10 @@ var staticRenderFns = [
             "a",
             {
               staticClass: "button",
-              attrs: { href: "/images/illustrations/strength.svg" }
+              attrs: {
+                href: "/images/illustrations/strength.svg",
+                download: ""
+              }
             },
             [_vm._v("\n                strength.svg\n            ")]
           )
@@ -1955,7 +2013,10 @@ var staticRenderFns = [
             "a",
             {
               staticClass: "button",
-              attrs: { href: "/images/illustrations/information.svg" }
+              attrs: {
+                href: "/images/illustrations/information.svg",
+                download: ""
+              }
             },
             [_vm._v("\n                information.svg\n            ")]
           )
@@ -2022,7 +2083,10 @@ var staticRenderFns = [
           _vm._v(" "),
           _c(
             "a",
-            { staticClass: "button", attrs: { href: "/images/logo.svg" } },
+            {
+              staticClass: "button",
+              attrs: { href: "/images/logo.svg", download: "" }
+            },
             [_vm._v("logo.svg")]
           )
         ])
@@ -2056,7 +2120,7 @@ var staticRenderFns = [
             "a",
             {
               staticClass: "button",
-              attrs: { href: "/images/negative-logo.svg" }
+              attrs: { href: "/images/negative-logo.svg", download: "" }
             },
             [_vm._v("\n                negative-logo.svg\n            ")]
           )
@@ -2089,7 +2153,7 @@ var staticRenderFns = [
             "a",
             {
               staticClass: "button",
-              attrs: { href: "/images/pure-negative-logo.svg" }
+              attrs: { href: "/images/pure-negative-logo.svg", download: "" }
             },
             [_vm._v("\n                pure-negative-logo.svg\n            ")]
           )
@@ -2160,7 +2224,10 @@ var staticRenderFns = [
           _vm._v(" "),
           _c(
             "a",
-            { staticClass: "button", attrs: { href: "/images/logo.svg" } },
+            {
+              staticClass: "button",
+              attrs: { href: "/images/logo.svg", download: "" }
+            },
             [_vm._v("\n                symbol-original.svg\n            ")]
           )
         ])
@@ -2194,7 +2261,7 @@ var staticRenderFns = [
             "a",
             {
               staticClass: "button",
-              attrs: { href: "/images/symbol-negative.svg" }
+              attrs: { href: "/images/symbol-negative.svg", download: "" }
             },
             [_vm._v("\n                symbol-negative.svg\n            ")]
           )
@@ -2227,7 +2294,7 @@ var staticRenderFns = [
             "a",
             {
               staticClass: "button",
-              attrs: { href: "/images/symbol-pure-negative.svg" }
+              attrs: { href: "/images/symbol-pure-negative.svg", download: "" }
             },
             [_vm._v("\n                symbol-pure-negative.svg\n            ")]
           )
@@ -2288,7 +2355,7 @@ var staticRenderFns = [
             "a",
             {
               staticClass: "button",
-              attrs: { href: "/images/mascot/larydefault.svg" }
+              attrs: { href: "/images/mascot/larydefault.svg", download: "" }
             },
             [_vm._v("\n                larydefault.svg\n            ")]
           )
@@ -2329,8 +2396,9 @@ var staticRenderFns = [
             _c(
               "a",
               {
-                staticClass: "text-grey text-2xs hover:underline mt-auto",
-                attrs: { href: "/images/mascot/larypeek.svg" }
+                staticClass:
+                  "text-grey font-semibold text-2xs hover:underline mt-auto",
+                attrs: { href: "/images/mascot/larypeek.svg", download: "" }
               },
               [_vm._v("larypeek.svg")]
             )
@@ -2364,8 +2432,9 @@ var staticRenderFns = [
             _c(
               "a",
               {
-                staticClass: "text-grey text-2xs hover:underline mt-auto",
-                attrs: { href: "/images/mascot/larywink.svg" }
+                staticClass:
+                  "text-grey font-semibold text-2xs hover:underline mt-auto",
+                attrs: { href: "/images/mascot/larywink.svg", download: "" }
               },
               [_vm._v("larywink.svg")]
             )
@@ -2399,8 +2468,9 @@ var staticRenderFns = [
             _c(
               "a",
               {
-                staticClass: "text-grey text-2xs hover:underline mt-auto",
-                attrs: { href: "/images/mascot/larysmart.svg" }
+                staticClass:
+                  "text-grey font-semibold text-2xs hover:underline mt-auto",
+                attrs: { href: "/images/mascot/larysmart.svg", download: "" }
               },
               [_vm._v("larysmart.svg")]
             )
@@ -2435,8 +2505,9 @@ var staticRenderFns = [
             _c(
               "a",
               {
-                staticClass: "text-grey text-2xs hover:underline mt-auto",
-                attrs: { href: "/images/mascot/larylab.svg" }
+                staticClass:
+                  "text-grey font-semibold text-2xs hover:underline mt-auto",
+                attrs: { href: "/images/mascot/larylab.svg", download: "" }
               },
               [_vm._v("larylab.svg")]
             )
@@ -2673,7 +2744,7 @@ var staticRenderFns = [
               "a",
               {
                 staticClass: "button",
-                attrs: { href: "/images/wallpapers/clarity.png" }
+                attrs: { href: "/images/wallpapers/clarity.png", download: "" }
               },
               [_vm._v("\n                clarity.png\n            ")]
             )
@@ -2704,7 +2775,7 @@ var staticRenderFns = [
               "a",
               {
                 staticClass: "button",
-                attrs: { href: "/images/wallpapers/strength.png" }
+                attrs: { href: "/images/wallpapers/strength.png", download: "" }
               },
               [_vm._v("\n                strength.png\n            ")]
             )
@@ -2735,7 +2806,10 @@ var staticRenderFns = [
               "a",
               {
                 staticClass: "button",
-                attrs: { href: "/images/wallpapers/knowledge.png" }
+                attrs: {
+                  href: "/images/wallpapers/knowledge.png",
+                  download: ""
+                }
               },
               [_vm._v("\n                knowledge.png\n            ")]
             )
@@ -2766,7 +2840,7 @@ var staticRenderFns = [
               "a",
               {
                 staticClass: "button",
-                attrs: { href: "/images/wallpapers/fun.png" }
+                attrs: { href: "/images/wallpapers/fun.png", download: "" }
               },
               [_vm._v("\n                fun.png\n            ")]
             )
@@ -2797,7 +2871,10 @@ var staticRenderFns = [
               "a",
               {
                 staticClass: "button",
-                attrs: { href: "/images/wallpapers/experimenting.png" }
+                attrs: {
+                  href: "/images/wallpapers/experimenting.png",
+                  download: ""
+                }
               },
               [_vm._v("\n                experimenting.png\n            ")]
             )
@@ -2828,7 +2905,7 @@ var staticRenderFns = [
               "a",
               {
                 staticClass: "button",
-                attrs: { href: "/images/wallpapers/extra.png" }
+                attrs: { href: "/images/wallpapers/extra.png", download: "" }
               },
               [_vm._v("\n                extra.png\n            ")]
             )
@@ -2859,7 +2936,10 @@ var staticRenderFns = [
               "a",
               {
                 staticClass: "button",
-                attrs: { href: "/images/wallpapers/inspire-me.png" }
+                attrs: {
+                  href: "/images/wallpapers/inspire-me.png",
+                  download: ""
+                }
               },
               [_vm._v("\n                inspire-me.png\n            ")]
             )

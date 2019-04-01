@@ -16,7 +16,7 @@
             <div class="flex justify-between items-center">
                 <p>Original symbol on <strong>white</strong> background</p>
 
-                <a href="/images/logo.svg" class="button">
+                <a href="/images/logo.svg" class="button" download>
                     symbol-original.svg
                 </a>
             </div>
@@ -37,7 +37,7 @@
                     <strong>dark</strong> background
                 </p>
 
-                <a href="/images/symbol-negative.svg" class="button">
+                <a href="/images/symbol-negative.svg" class="button" download>
                     symbol-negative.svg
                 </a>
             </div>
@@ -55,7 +55,11 @@
             <div class="flex justify-between items-center">
                 <p>Pure negative symbol on <strong>dark</strong> background</p>
 
-                <a href="/images/symbol-pure-negative.svg" class="button">
+                <a
+                    href="/images/symbol-pure-negative.svg"
+                    class="button"
+                    download
+                >
                     symbol-pure-negative.svg
                 </a>
             </div>

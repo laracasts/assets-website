@@ -17,7 +17,11 @@
             <div class="flex justify-between items-center">
                 <h2 class="font-normal text-base">Inspire Clarity</h2>
 
-                <a href="/images/wallpapers/clarity.png" class="button">
+                <a
+                    href="/images/wallpapers/clarity.png"
+                    class="button"
+                    download
+                >
                     clarity.png
                 </a>
             </div>
@@ -36,7 +40,11 @@
             <div class="flex justify-between items-center">
                 <h2 class="font-normal text-base">Inspire Strength</h2>
 
-                <a href="/images/wallpapers/strength.png" class="button">
+                <a
+                    href="/images/wallpapers/strength.png"
+                    class="button"
+                    download
+                >
                     strength.png
                 </a>
             </div>
@@ -55,7 +63,11 @@
             <div class="flex justify-between items-center">
                 <h2 class="font-normal text-base">Inspire Knowledge</h2>
 
-                <a href="/images/wallpapers/knowledge.png" class="button">
+                <a
+                    href="/images/wallpapers/knowledge.png"
+                    class="button"
+                    download
+                >
                     knowledge.png
                 </a>
             </div>
@@ -74,7 +86,7 @@
             <div class="flex justify-between items-center">
                 <h2 class="font-normal text-base">Inspire Fun</h2>
 
-                <a href="/images/wallpapers/fun.png" class="button">
+                <a href="/images/wallpapers/fun.png" class="button" download>
                     fun.png
                 </a>
             </div>
@@ -93,7 +105,11 @@
             <div class="flex justify-between items-center">
                 <h2 class="font-normal text-base">Inspire Experimenting</h2>
 
-                <a href="/images/wallpapers/experimenting.png" class="button">
+                <a
+                    href="/images/wallpapers/experimenting.png"
+                    class="button"
+                    download
+                >
                     experimenting.png
                 </a>
             </div>
@@ -112,7 +128,7 @@
             <div class="flex justify-between items-center">
                 <h2 class="font-normal text-base">Extra</h2>
 
-                <a href="/images/wallpapers/extra.png" class="button">
+                <a href="/images/wallpapers/extra.png" class="button" download>
                     extra.png
                 </a>
             </div>
@@ -131,7 +147,11 @@
             <div class="flex justify-between items-center">
                 <h2 class="font-normal text-base">Inspire Me</h2>
 
-                <a href="/images/wallpapers/inspire-me.png" class="button">
+                <a
+                    href="/images/wallpapers/inspire-me.png"
+                    class="button"
+                    download
+                >
                     inspire-me.png
                 </a>
             </div>

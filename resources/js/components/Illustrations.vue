@@ -25,7 +25,11 @@
                     with expectations. Sponge brain is the best brain.
                 </p>
 
-                <a href="/images/illustrations/clarity.svg" class="button">
+                <a
+                    href="/images/illustrations/clarity.svg"
+                    class="button"
+                    download
+                >
                     clarity.svg
                 </a>
             </div>
@@ -53,7 +57,7 @@
                     day in your life.
                 </p>
 
-                <a href="/images/illustrations/fun.svg" class="button">
+                <a href="/images/illustrations/fun.svg" class="button" download>
                     fun.svg
                 </a>
             </div>
@@ -81,7 +85,11 @@
                     never work a day in your life.
                 </p>
 
-                <a href="/images/illustrations/experiment.svg" class="button">
+                <a
+                    href="/images/illustrations/experiment.svg"
+                    class="button"
+                    download
+                >
                     experiment.svg
                 </a>
             </div>
@@ -109,7 +117,11 @@
                     work a day in your life.
                 </p>
 
-                <a href="/images/illustrations/strength.svg" class="button">
+                <a
+                    href="/images/illustrations/strength.svg"
+                    class="button"
+                    download
+                >
                     strength.svg
                 </a>
             </div>
@@ -137,7 +149,11 @@
                     never work a day in your life.
                 </p>
 
-                <a href="/images/illustrations/information.svg" class="button">
+                <a
+                    href="/images/illustrations/information.svg"
+                    class="button"
+                    download
+                >
                     information.svg
                 </a>
             </div>

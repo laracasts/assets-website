@@ -16,7 +16,7 @@
             <div class="flex justify-between items-center">
                 <p>Original logo on <strong>white</strong> background</p>
 
-                <a href="/images/logo.svg" class="button">logo.svg</a>
+                <a href="/images/logo.svg" class="button" download>logo.svg</a>
             </div>
         </div>
 
@@ -35,7 +35,7 @@
                     <strong>dark</strong> background
                 </p>
 
-                <a href="/images/negative-logo.svg" class="button">
+                <a href="/images/negative-logo.svg" class="button" download>
                     negative-logo.svg
                 </a>
             </div>
@@ -53,7 +53,11 @@
             <div class="flex justify-between items-center">
                 <p>Pure negative logo on <strong>dark</strong> background</p>
 
-                <a href="/images/pure-negative-logo.svg" class="button">
+                <a
+                    href="/images/pure-negative-logo.svg"
+                    class="button"
+                    download
+                >
                     pure-negative-logo.svg
                 </a>
             </div>
