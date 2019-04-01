@@ -21,8 +21,8 @@
                 <p
                     class="leading-relaxed text-grey-darker text-sm mb-8 font-light"
                 >
-                    Learning isn’t easy. Keep your mind clear and don’t fill it
-                    with expectations. Sponge brain is the best brain.
+                    Anyone can fumble around until a program works. But to write
+                    truly clear code...is far more difficult.
                 </p>
 
                 <a
@@ -52,9 +52,10 @@
                 <p
                     class="leading-relaxed text-grey-darker text-sm mb-8 font-light"
                 >
-                    If you’re not having fun, you’re doing something wrong. You
-                    know what they say, love what you do and you’ll never work a
-                    day in your life.
+                    If you’re not having fun, what's the point? As exhausting as
+                    programming can sometimes be, don't forget the simple joy of
+                    writing in a code editor, and seeing it reflected in the
+                    browser.
                 </p>
 
                 <a href="/images/illustrations/fun.svg" class="button" download>
@@ -80,9 +81,8 @@
                 <p
                     class="leading-relaxed text-grey-darker text-sm mb-8 font-light"
                 >
-                    If you’re not having experiment, you’re doing something
-                    wrong. You know what they say, love what you do and you’ll
-                    never work a day in your life.
+                    Each step of a new project often requires hours of research
+                    and experimentation.
                 </p>
 
                 <a
@@ -112,9 +112,9 @@
                 <p
                     class="leading-relaxed text-grey-darker text-sm mb-8 font-light"
                 >
-                    If you’re not having strength, you’re doing something wrong.
-                    You know what they say, love what you do and you’ll never
-                    work a day in your life.
+                    You've spent hours staring at your computer screen. "Why
+                    isn't it working?" And then, finally, in a perfect "aha"
+                    moment, you level up and solve the problem.
                 </p>
 
                 <a
@@ -144,9 +144,10 @@
                 <p
                     class="leading-relaxed text-grey-darker text-sm mb-8 font-light"
                 >
-                    If you’re not having information, you’re doing something
-                    wrong. You know what they say, love what you do and you’ll
-                    never work a day in your life.
+                    Too often, we lack the mental "tools" to solve a particular
+                    problem. Thankfully, that's what
+                    <a href="https://laracasts.com/discuss">the forum</a> is
+                    for!
                 </p>
 
                 <a
