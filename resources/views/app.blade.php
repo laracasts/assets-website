@@ -13,9 +13,9 @@
 	<div id="app">
 		<header class="section py-6 mb-8" style="background: url('/images/splash.svg') 0 15px no-repeat;">
 			<h1>
-				<router-link to="/">
+				<a href="https://laracasts.com">
 					<img alt="Laracasts" src="/images/logo.svg">
-				</router-link>
+				</a>
 			</h1>
 		</header>
 
