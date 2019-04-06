@@ -10,7 +10,8 @@
             <div class="flex">
                 <div class="text-center mr-8">
                     <div
-                        class="rounded-full bg-blue shadow w-18 h-18 mb-3"
+                        class="rounded-full shadow w-18 h-18 mb-3"
+                        style="background: #328AF1"
                     ></div>
                     <p class="text-xs">#328AF1</p>
                 </div>
