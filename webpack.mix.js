@@ -18,6 +18,6 @@ mix.js('resources/js/app.js', 'public/js')
     .tailwind()
     .webpackConfig({
         output: {
-            chunkFilename: '[name].[chunkhash]'
+            chunkFilename: '[name].[chunkhash].js'
         }
     });

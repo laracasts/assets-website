@@ -54,6 +54,6 @@
 		</div>
 	</div>
 
-	<script src="/js/app.js?v=7"></script>
+	<script src="/js/app.js?v=8"></script>
 </body>
 </html>
