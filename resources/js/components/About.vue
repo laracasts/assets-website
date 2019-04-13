@@ -14,10 +14,10 @@
             contributed to the largest development magazines in the world.
         </p>
 
-        <div class="flex items-center mb-12">
+        <div class="md:flex md:items-center mb-12">
             <div>
                 <div
-                    class="flex flex-col block shadow rounded-lg flex items-center justify-center mr-10 py-10"
+                    class="flex flex-col block shadow rounded-lg flex items-center justify-center mr-10 py-10 mb-6 md:mb-0"
                     style="width: 300px"
                 >
                     <picture
@@ -59,10 +59,10 @@
             </div>
         </div>
 
-        <div class="flex items-center">
+        <div class="md:flex md:items-center">
             <div>
                 <div
-                    class="flex flex-col block shadow rounded-lg flex items-center justify-center mr-10 py-10"
+                    class="flex flex-col block shadow rounded-lg flex items-center justify-center mr-10 py-10 mb-6 md:mb-0"
                     style="width: 300px"
                 >
                     <img
