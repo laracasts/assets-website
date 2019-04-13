@@ -5,7 +5,9 @@ import Typography from './components/Typography';
 import Mascot from './components/Mascot';
 import Illustrations from './components/Illustrations';
 import Wallpapers from './components/Wallpapers';
+import SiteStats from './components/SiteStats';
 import NotFound from './components/NotFound';
+import About from './components/About';
 
 let LoadersAndAnimations = () =>
     import(/* webpackChunkName: "loaders-and-animations.bundle" */ './components/LoadersAndAnimations');
@@ -59,6 +61,11 @@ export default {
         {
             path: '/wallpapers',
             component: Wallpapers
+        },
+
+        {
+            path: '/about',
+            component: About
         }
     ]
 };
