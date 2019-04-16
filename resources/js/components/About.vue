@@ -4,16 +4,6 @@
             So, Hi!
         </h1>
 
-        <p class="leading-relaxed text-grey-darkest text-sm mb-10">
-            You could place any description here, I’ll fill it with random text
-            for now. here's a chance you may already know me! A veteran in the
-            PHP community, I was a co-host on the official Laravel podcast, have
-            written successful books, built popular packages, spoken at multiple
-            Laracon conferences, been a guest on countless podcasts (including
-            PHP Town Hall, Shop Talk, No Capes, and Full Stack Radio), and have
-            contributed to the largest development magazines in the world.
-        </p>
-
         <div class="md:flex md:items-center mb-12">
             <div>
                 <div
