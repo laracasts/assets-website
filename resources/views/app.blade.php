@@ -62,6 +62,6 @@
 		</div>
 	</div>
 
-	<script src="/js/app.js?v=11"></script>
+	<script src="/js/app.js?v=12"></script>
 </body>
 </html>

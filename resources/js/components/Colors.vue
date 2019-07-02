@@ -49,20 +49,20 @@
                 ></color-range>
 
                 <color-range
-                    to="#50A88D"
+                    to="#1AAB8B"
                     from="#6EDCC4"
                     name="Testing"
                 ></color-range>
 
                 <color-range
-                    to="#E59D3E"
-                    from="#F19A1A"
+                    to="#F19A1A"
+                    from="#FFC73C"
                     name="JavaScript"
                 ></color-range>
 
                 <color-range
-                    to="#8465E5"
-                    from="#AA76B9"
+                    to="#8B60ED"
+                    from="#B372BD"
                     name="Tooling"
                 ></color-range>
             </div>
