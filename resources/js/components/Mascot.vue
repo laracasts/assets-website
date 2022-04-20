@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1 class="font-normal text-3xl text-black leading-none mb-12">
+        <h1 class="font-normal font-cabin text-3xl text-black leading-none mb-12">
             Meet "Lary"
         </h1>
 

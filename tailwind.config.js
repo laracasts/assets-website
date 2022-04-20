@@ -131,7 +131,7 @@ module.exports = {
 
         fontFamily: {
             sans: [
-                "Open Sans",
+                "Poppins",
                 "system-ui",
                 "BlinkMacSystemFont",
                 "-apple-system",
