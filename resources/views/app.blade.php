@@ -6,7 +6,7 @@
 
 	<title>Laracasts Assets</title>
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
-	<link rel="stylesheet" href="/css/app.css?v=2">
+	<link rel="stylesheet" href="/css/app.css?v=3">
 </head>
 
 <body class="font-sans">
@@ -62,6 +62,6 @@
 		</div>
 	</div>
 
-	<script src="/js/app.js?v=12"></script>
+	<script src="/js/app.js?v=13"></script>
 </body>
 </html>
