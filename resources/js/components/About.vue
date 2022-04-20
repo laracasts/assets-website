@@ -1,6 +1,6 @@
 <template>
     <div class="pb-10">
-        <h1 class="font-normal text-3xl text-grey-darkest leading-none mb-10">
+        <h1 class="font-normal text-3xl text-black leading-none mb-10">
             So, Hi!
         </h1>
 
@@ -20,7 +20,7 @@
                     <strong class="text-xl font-normal tracking-wide"
                         >Jeffrey Way</strong
                     >
-                    <p class="leading-relaxed text-grey-darkest text-sm mb-6">
+                    <p class="leading-relaxed text-black text-sm mb-6">
                         Owner of Laracasts
                     </p>
 
@@ -32,7 +32,7 @@
                 </div>
             </div>
 
-            <div class="leading-relaxed text-grey-darkest text-sm">
+            <div class="leading-relaxed text-black text-sm">
                 <p class="mb-6">
                     There's a chance you may already know me!
                 </p>
@@ -65,7 +65,7 @@
                     <strong class="text-xl font-normal tracking-wide"
                         >Tuds (Adrian)</strong
                     >
-                    <p class="leading-relaxed text-grey-darkest text-sm mb-6">
+                    <p class="leading-relaxed text-black text-sm mb-6">
                         Design at Laracasts
                     </p>
 
@@ -77,7 +77,7 @@
                 </div>
             </div>
 
-            <div class="leading-relaxed text-grey-darkest text-sm">
+            <div class="leading-relaxed text-black text-sm">
                 <p class="mb-6">
                     Whenever I design, I feel at home. I guess it’s that feeling
                     of being able to create something from scratch that really

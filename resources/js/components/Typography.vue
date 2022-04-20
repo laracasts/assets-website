@@ -1,11 +1,11 @@
 <template>
     <div>
-        <h1 class="font-normal text-3xl text-grey-darkest leading-none mb-8">
+        <h1 class="font-normal text-3xl text-grey-800 leading-none mb-8">
             Open Sans
         </h1>
 
         <div
-            class="rounded-lg bg-grey-lightest p-6 lg:py-12 lg:px-16 mb-10"
+            class="rounded-lg bg-grey-400 p-6 lg:py-12 lg:px-16 mb-10"
             style="max-width: 522px"
         >
             <div class="flex justify-end mb-10 items-center">

@@ -1,7 +1,5 @@
 const mix = require('laravel-mix');
 
-require('laravel-mix-tailwind');
-
 /*
  |--------------------------------------------------------------------------
  | Mix Asset Management
@@ -14,8 +12,10 @@ require('laravel-mix-tailwind');
  */
 
 mix.js('resources/js/app.js', 'public/js')
-    .sass('resources/sass/app.scss', 'public/css')
-    .tailwind()
+    .vue({version: 2})
+    .sass('resources/sass/app.scss', 'public/css', {}, [
+        require("tailwindcss")
+    ])
     .webpackConfig({
         output: {
             chunkFilename: '[name].[chunkhash].js'

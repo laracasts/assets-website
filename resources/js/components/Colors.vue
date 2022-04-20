@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1 class="font-normal text-3xl text-grey-darkest leading-none mb-6">
+        <h1 class="font-normal text-3xl text-black leading-none mb-6">
             Colors
         </h1>
 
@@ -74,7 +74,7 @@
             <div class="flex">
                 <div class="text-center mr-8">
                     <div
-                        class="rounded-full shadow w-18 h-18 mb-3 bg-grey-dark"
+                        class="rounded-full shadow w-18 h-18 mb-3 bg-grey-800"
                     ></div>
                     <p class="text-xs">#78909C</p>
                 </div>

@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1 class="font-normal text-3xl text-grey-darkest leading-none mb-8">
+        <h1 class="font-normal text-3xl text-black leading-none mb-8">
             Logo Symbol
         </h1>
 
@@ -16,7 +16,7 @@
             <div class="flex justify-between items-center">
                 <p>Original symbol on <strong>white</strong> background</p>
 
-                <a href="/images/logo.svg" class="button" download>
+                <a href="/images/symbol-original.svg" class="button" download>
                     symbol-original.svg
                 </a>
             </div>

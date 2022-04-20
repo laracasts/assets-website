@@ -11,8 +11,8 @@
 
 <body class="font-sans">
 	<div id="app">
-		<header class="section py-6 mb-8" style="background: url('/images/splash.svg') 0 15px no-repeat;">
-			<h1>
+		<header class="section py-6 mb-8 flex items-center" style="background: url('/images/splash.svg') 0 15px no-repeat; height: 84px;">
+			<h1 class="inline-block">
 				<a href="https://laracasts.com">
 					<img alt="Laracasts" src="/images/logo.svg">
 				</a>

@@ -1,10 +1,10 @@
 <template>
     <div>
-        <h1 class="font-normal text-3xl text-grey-darkest leading-none mb-8">
+        <h1 class="font-normal text-3xl text-black leading-none mb-8">
             Loaders and Animations
         </h1>
 
-        <p class="mb-10 text-grey-darker leading-normal">
+        <p class="mb-10 text-grey-800 leading-normal">
             This spinner uses AirBnb's
             <a href="http://airbnb.io/lottie/#/web" class="text-blue font-bold"
                 >Lottie</a
@@ -14,7 +14,7 @@
         </p>
 
         <div
-            class="border border-grey-lighter rounded-lg flex items-center justify-center mb-8"
+            class="border border-grey-400 rounded-lg flex items-center justify-center mb-8"
         >
             <div ref="lottie" class="w-64" style="height: 457px"></div>
         </div>
