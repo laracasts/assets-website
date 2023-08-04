@@ -1,158 +1,123 @@
 <template>
     <div>
-        <h1 class="font-normal font-cabin text-3xl text-black leading-none mb-6">
-            Wallpapers
-        </h1>
+        <header class="mb-8">
+            <h1 class="text-2xl font-medium">
+                Laracasts Wallpapers
+            </h1>
 
-        <!-- Inspire Clarity -->
-        <div class="mb-12" style="max-width: 439px">
+            <p class="text-grey-600 text-sm mt-2">
+                Don’t forget! Every series has it’s own dedicated wallpaper. Whenever you view a series, scroll right
+                under the video and you’ll see a download button there. Go ahead and explore and find your favorite one.
+                Here are a few with Lary!
+            </p>
+        </header>
+        <!-- Blue -->
+        <div class="mb-12">
             <a href="/images/wallpapers/clarity.png">
                 <img
-                    src="/images/wallpapers/thumbnails/clarity.png"
-                    alt="Inspire Clarity Laracasts Wallpaper"
+                    src="/images/wallpapers/thumbnails/wallpaper-blue.png"
+                    alt="Blue Laracasts Wallpaper"
                     class="mb-4"
+                    style="width: 100%"
                 />
             </a>
 
-            <div class="flex justify-between items-center">
-                <h2 class="font-normal text-base">Inspire Clarity</h2>
-
+            <div class="flex justify-center items-center">
                 <a
-                    href="/images/wallpapers/clarity.png"
+                    href="/images/wallpapers/wallpaper-blue.png"
                     class="button"
                     download
                 >
-                    clarity.png
+                    Download Wallpaper
                 </a>
             </div>
         </div>
 
-        <!-- Inspire Strength -->
-        <div class="mb-12" style="max-width: 439px">
+        <!-- Green -->
+        <div class="mb-12">
             <a href="/images/wallpapers/strength.png">
                 <img
-                    src="/images/wallpapers/thumbnails/strength.png"
-                    alt="Inspire Strength Laracasts Wallpaper"
+                    src="/images/wallpapers/thumbnails/wallpaper-green.png"
+                    alt="Green Laracasts Wallpaper"
                     class="mb-4"
+                    style="width: 100%"
                 />
             </a>
 
-            <div class="flex justify-between items-center">
-                <h2 class="font-normal text-base">Inspire Strength</h2>
-
+            <div class="flex justify-center items-center">
                 <a
-                    href="/images/wallpapers/strength.png"
+                    href="/images/wallpapers/wallpaper-green.png"
                     class="button"
                     download
                 >
-                    strength.png
+                    Download Wallpaper
                 </a>
             </div>
         </div>
 
-        <!-- Inspire Knowledge -->
-        <div class="mb-12" style="max-width: 439px">
+        <!-- Purple -->
+        <div class="mb-12">
             <a href="/images/wallpapers/knowledge.png">
                 <img
-                    src="/images/wallpapers/thumbnails/knowledge.png"
+                    src="/images/wallpapers/thumbnails/wallpaper-purple.png"
                     alt="Inspire Knowledge Laracasts Wallpaper"
                     class="mb-4"
+                    style="width: 100%"
                 />
             </a>
 
-            <div class="flex justify-between items-center">
-                <h2 class="font-normal text-base">Inspire Knowledge</h2>
-
+            <div class="flex justify-center items-center">
                 <a
-                    href="/images/wallpapers/knowledge.png"
+                    href="/images/wallpapers/wallpaper-purple.png"
                     class="button"
                     download
                 >
-                    knowledge.png
+                    Download Wallpaper
                 </a>
             </div>
         </div>
 
-        <!-- Inspire Fun -->
-        <div class="mb-12" style="max-width: 439px">
+        <!-- Yellow -->
+        <div class="mb-12">
             <a href="/images/wallpapers/fun.png">
                 <img
-                    src="/images/wallpapers/thumbnails/fun.png"
-                    alt="Inspire Fun Laracasts Wallpaper"
+                    src="/images/wallpapers/thumbnails/wallpaper-yellow.png"
+                    alt="Yellow Laracasts Wallpaper"
                     class="mb-4"
+                    style="width: 100%"
                 />
             </a>
 
-            <div class="flex justify-between items-center">
-                <h2 class="font-normal text-base">Inspire Fun</h2>
 
-                <a href="/images/wallpapers/fun.png" class="button" download>
-                    fun.png
+            <div class="flex justify-center items-center">
+                <a
+                    href="/images/wallpapers/wallpaper-yellow.png"
+                    class="button"
+                    download
+                >
+                    Download Wallpaper
                 </a>
             </div>
         </div>
 
-        <!-- Inspire Experimenting -->
-        <div class="mb-12" style="max-width: 439px">
+        <!-- Red -->
+        <div class="mb-12">
             <a href="/images/wallpapers/experimenting.png">
                 <img
-                    src="/images/wallpapers/thumbnails/experimenting.png"
-                    alt="Inspire Experimenting Laracasts Wallpaper"
+                    src="/images/wallpapers/thumbnails/wallpaper-red.png"
+                    alt="Red Laracasts Wallpaper"
                     class="mb-4"
+                    style="width: 100%"
                 />
             </a>
 
-            <div class="flex justify-between items-center">
-                <h2 class="font-normal text-base">Inspire Experimenting</h2>
-
+            <div class="flex justify-center items-center">
                 <a
-                    href="/images/wallpapers/experimenting.png"
+                    href="/images/wallpapers/wallpaper-red.png"
                     class="button"
                     download
                 >
-                    experimenting.png
-                </a>
-            </div>
-        </div>
-
-        <!-- Inspire Extra -->
-        <div class="mb-12" style="max-width: 439px">
-            <a href="/images/wallpapers/extra.png">
-                <img
-                    src="/images/wallpapers/thumbnails/extra.png"
-                    alt="Inspire Extra Laracasts Wallpaper"
-                    class="mb-4"
-                />
-            </a>
-
-            <div class="flex justify-between items-center">
-                <h2 class="font-normal text-base">Extra</h2>
-
-                <a href="/images/wallpapers/extra.png" class="button" download>
-                    extra.png
-                </a>
-            </div>
-        </div>
-
-        <!-- Inspire Me -->
-        <div style="max-width: 439px">
-            <a href="/images/wallpapers/inspire-me.png">
-                <img
-                    src="/images/wallpapers/thumbnails/inspire-me.png"
-                    alt="Inspire Extra Laracasts Wallpaper"
-                    class="mb-4"
-                />
-            </a>
-
-            <div class="flex justify-between items-center">
-                <h2 class="font-normal text-base">Inspire Me</h2>
-
-                <a
-                    href="/images/wallpapers/inspire-me.png"
-                    class="button"
-                    download
-                >
-                    inspire-me.png
+                    Download Wallpaper
                 </a>
             </div>
         </div>

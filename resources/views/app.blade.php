@@ -11,12 +11,12 @@
     <link rel="stylesheet" href="/css/app.css?v=4">
 </head>
 
-<body class="font-sans">
+<body>
 	<div id="app">
 		<header class="section py-6 mb-8 flex items-center" style="background: url('/images/splash.svg') 0 15px no-repeat; height: 84px;">
 			<h1 class="inline-block">
 				<a href="https://laracasts.com">
-					<img alt="Laracasts" src="/images/logo.svg">
+					<img alt="Laracasts" src="/images/logo-white.svg" width="170">
 				</a>
 			</h1>
 		</header>
@@ -26,32 +26,32 @@
 				<main class="lg:flex">
 					<aside class="lg:w-64 lg:pt-8 flex-no-shrink mb-10 lg:mb-0">
 						<div class="mb-10">
-							<h5 class="uppercase font-bold mb-5 text-base font-cabin">The Brand</h5>
+							<h5 class="font-medium mb-5 text-[24px] font-cabin">The Brand</h5>
 
 							<ul class="list-reset">
-								<li class="text-sm leading-loose"><router-link class="text-black" to="/" exact>Logo</router-link></li>
-								<li class="text-sm leading-loose"><router-link class="text-black" to="/logo-symbol">Logo Symbol</router-link></li>
-								<li class="text-sm leading-loose"><router-link class="text-black" to="/colors">Colors</router-link></li>
-								<li class="text-sm leading-loose"><router-link class="text-black" to="/typography">Typography</router-link></li>
+								<li class="text-sm leading-loose"><router-link to="/" exact>Logo</router-link></li>
+								<li class="text-sm leading-loose"><router-link to="/logo-symbol">Logo Symbol</router-link></li>
+								<li class="text-sm leading-loose"><router-link to="/colors">Colors</router-link></li>
+								<li class="text-sm leading-loose"><router-link to="/typography">Typography</router-link></li>
 							</ul>
 						</div>
 
 						<div class="mb-10">
-							<h5 class="uppercase font-bold mb-5 text-base font-cabin">Doodles</h5>
+							<h5 class="font-medium mb-5 text-[24px] font-cabin">Doodles</h5>
 
 							<ul class="list-reset">
-								<li class="text-sm leading-loose"><router-link class="text-black" to="/mascot">Mascot</router-link></li>
-								<li class="text-sm leading-loose"><router-link class="text-black" to="/illustrations">Illustrations</router-link></li>
-								<li class="text-sm leading-loose"><router-link class="text-black" to="/loaders-and-animations">Loaders and Animations</router-link></li>
-								<li class="text-sm leading-loose"><router-link class="text-black" to="/wallpapers">Wallpapers</router-link></li>
+								<li class="text-sm leading-loose"><router-link to="/mascot">Mascot</router-link></li>
+								<li class="text-sm leading-loose"><router-link to="/illustrations">Illustrations</router-link></li>
+								<li class="text-sm leading-loose"><router-link to="/loaders-and-animations">Loaders and Animations</router-link></li>
+								<li class="text-sm leading-loose"><router-link to="/wallpapers">Wallpapers</router-link></li>
 							</ul>
 						</div>
 
 						<div>
-							<h5 class="uppercase font-bold mb-5 text-base font-cabin">About Laracasts</h5>
+							<h5 class="font-medium mb-5 text-[24px] font-cabin">About Laracasts</h5>
 
 							<ul class="list-reset">
-								<li class="text-sm leading-loose"><router-link class="text-black" to="/about">The Team</router-link></li>
+								<li class="text-sm leading-loose"><router-link to="/about">The Team</router-link></li>
 							</ul>
 						</div>
 					</aside>

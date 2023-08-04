@@ -1,83 +1,64 @@
 <template>
     <div>
-        <h1 class="font-normal font-cabin text-3xl text-black leading-none mb-6">
-            Colors
-        </h1>
-
         <div class="mb-16">
-            <p class="mb-8">Primary - Blue, White, Dark Grey</p>
+            <h1 class="mb-8 text-2xl font-medium">Primaries</h1>
 
-            <div class="flex">
-                <div class="text-center mr-8">
-                    <div
-                        class="rounded-full shadow w-18 h-18 mb-3"
-                        style="background: #328AF1"
-                    ></div>
-                    <p class="text-xs">#328AF1</p>
-                </div>
+            <div class="flex flex-wrap gap-x-4 gap-y-4">
+                <ColorCard
+                    from="#328AF1"
+                    to="#328AF1"
+                    label="Laracasts Blue"
+                    single
+                />
 
-                <div class="text-center mr-8">
-                    <div
-                        class="rounded-full bg-white shadow w-18 h-18 mb-3"
-                    ></div>
-                    <p class="text-xs">#FFF</p>
-                </div>
-
-                <div class="text-center">
-                    <div
-                        class="rounded-full bg-black shadow w-18 h-18 mb-3"
-                    ></div>
-                    <p class="text-xs">#222222</p>
-                </div>
+                <ColorCard
+                    from="#BAD9FC"
+                    to="#BAD9FC"
+                    label="Elements & Icons"
+                    single
+                />
             </div>
         </div>
 
         <div class="mb-16">
-            <p class="mb-8">Secondary - Category Colors & Accents</p>
+            <h1 class="mb-8 text-2xl font-medium">Secondaries</h1>
 
-            <div class="flex">
-                <color-range
-                    to="#EC454F"
-                    from="#F44881"
-                    name="Laravel"
-                ></color-range>
+            <div class="flex flex-wrap gap-x-4 gap-y-4">
+                <ColorCard
+                    from="#EC454F"
+                    to="#F44881"
+                    label="Frameworks"
+                />
 
-                <color-range
-                    to="#637BFF"
-                    from="#21C8F6"
-                    name="PHP"
-                ></color-range>
+                <ColorCard
+                    from="#637BFF"
+                    to="#21C8F6"
+                    label="Techniques"
+                />
 
-                <color-range
-                    to="#1AAB8B"
-                    from="#6EDCC4"
-                    name="Testing"
-                ></color-range>
+                <ColorCard
+                    from="#1AAB8B"
+                    to="#6EDCC4"
+                    label="Testing"
+                />
 
-                <color-range
-                    to="#F19A1A"
-                    from="#FFC73C"
-                    name="JavaScript"
-                ></color-range>
+                <ColorCard
+                    from="#F19A1A"
+                    to="#FFC73C"
+                    label="Languages"
+                />
 
-                <color-range
-                    to="#8B60ED"
-                    from="#B372BD"
-                    name="Tooling"
-                ></color-range>
-            </div>
-        </div>
+                <ColorCard
+                    from="#8B60ED"
+                    to="#B372BD"
+                    label="Tooling"
+                />
 
-        <div>
-            <p class="mb-8">Icons</p>
-
-            <div class="flex">
-                <div class="text-center mr-8">
-                    <div
-                        class="rounded-full shadow w-18 h-18 mb-3 bg-grey-800"
-                    ></div>
-                    <p class="text-xs">#78909C</p>
-                </div>
+                <ColorCard
+                    from="#253D63"
+                    to="#A1B6E5"
+                    label="DevOps"
+                />
             </div>
         </div>
     </div>
@@ -85,10 +66,12 @@
 
 <script>
 import ColorRange from './ColorRange';
+import ColorCard from "./ColorCard";
 
 export default {
     components: {
-        ColorRange
+        ColorRange,
+        ColorCard
     }
 };
 </script>

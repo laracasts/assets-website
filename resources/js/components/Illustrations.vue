@@ -1,12 +1,8 @@
 <template>
     <div>
-        <h1 class="font-normal font-cabin text-3xl text-black leading-none mb-10">
-            Illustrations
-        </h1>
-
         <div class="lg:flex mb-12">
             <picture
-                class="rounded-lg bg-blue py-6 px-10 lg:mr-10 flex-1 flex justify-center items-center"
+                class="bg-blue/5 rounded-xl py-6 px-10 lg:mr-10 flex-1 flex justify-center items-center"
             >
                 <img
                     src="/images/illustrations/clarity.svg"
@@ -16,10 +12,10 @@
             </picture>
 
             <div style="flex: 1.4">
-                <h2 class="font-light text-xl mb-4 mt-4">Clarity</h2>
+                <h2 class="font-medium text-xl mb-4 mt-4">Clarity</h2>
 
                 <p
-                    class="leading-relaxed text-grey-800 text-sm mb-8 font-light"
+                    class="leading-relaxed text-grey-600 text-sm mb-8 font-light"
                 >
                     Anyone can fumble around until a program works. But to write
                     truly clear code...is far more difficult.
@@ -37,7 +33,7 @@
 
         <div class="lg:flex mb-12">
             <picture
-                class="rounded-lg bg-blue py-6 px-10 lg:mr-10 flex flex-1 justify-center items-center"
+                class="bg-blue/5 rounded-xl py-6 px-10 lg:mr-10 flex flex-1 justify-center items-center"
             >
                 <img
                     src="/images/illustrations/fun.svg"
@@ -47,10 +43,10 @@
             </picture>
 
             <div style="flex: 1.4">
-                <h2 class="font-light text-xl mb-4 mt-4">Fun</h2>
+                <h2 class="font-medium text-xl mb-4 mt-4">Fun</h2>
 
                 <p
-                    class="leading-relaxed text-grey-800 text-sm mb-8 font-light"
+                    class="leading-relaxed text-grey-600 text-sm mb-8 font-light"
                 >
                     If you’re not having fun, what's the point? As exhausting as
                     programming can sometimes be, don't forget the simple joy of
@@ -66,7 +62,7 @@
 
         <div class="lg:flex mb-12">
             <picture
-                class="rounded-lg bg-blue py-6 px-10 lg:mr-10 flex flex-1 justify-center items-center"
+                class="bg-blue/5 rounded-xl py-6 px-10 lg:mr-10 flex flex-1 justify-center items-center"
             >
                 <img
                     src="/images/illustrations/experiment.svg"
@@ -76,10 +72,10 @@
             </picture>
 
             <div style="flex: 1.4">
-                <h2 class="font-light text-xl mb-4 mt-4">Experiment</h2>
+                <h2 class="font-medium text-xl mb-4 mt-4">Experiment</h2>
 
                 <p
-                    class="leading-relaxed text-grey-800 text-sm mb-8 font-light"
+                    class="leading-relaxed text-grey-600 text-sm mb-8 font-light"
                 >
                     Each step of a new project often requires hours of research
                     and experimentation.
@@ -97,7 +93,7 @@
 
         <div class="lg:flex mb-12">
             <picture
-                class="rounded-lg bg-blue py-6 px-10 lg:mr-10 flex flex-1 justify-center items-center"
+                class="bg-blue/5 rounded-xl py-6 px-10 lg:mr-10 flex flex-1 justify-center items-center"
             >
                 <img
                     src="/images/illustrations/strength.svg"
@@ -107,10 +103,10 @@
             </picture>
 
             <div style="flex: 1.4">
-                <h2 class="font-light text-xl mb-4 mt-4">Strength</h2>
+                <h2 class="font-medium text-xl mb-4 mt-4">Strength</h2>
 
                 <p
-                    class="leading-relaxed text-grey-800 text-sm mb-8 font-light"
+                    class="leading-relaxed text-grey-600 text-sm mb-8 font-light"
                 >
                     You've spent hours staring at your computer screen. "Why
                     isn't it working?" And then, finally, in a perfect "aha"
@@ -129,7 +125,7 @@
 
         <div class="lg:flex mb-12">
             <picture
-                class="rounded-lg bg-blue py-6 px-10 lg:mr-10 flex flex-1 justify-center items-center"
+                class="bg-blue/5 rounded-xl py-6 px-10 lg:mr-10 flex flex-1 justify-center items-center"
             >
                 <img
                     src="/images/illustrations/information.svg"
@@ -139,10 +135,10 @@
             </picture>
 
             <div style="flex: 1.4">
-                <h2 class="font-light text-xl mb-4 mt-4">Information</h2>
+                <h2 class="font-medium text-xl mb-4 mt-4">Information</h2>
 
                 <p
-                    class="leading-relaxed text-grey-800 text-sm mb-8 font-light"
+                    class="leading-relaxed text-grey-600 text-sm mb-8 font-light"
                 >
                     Too often, we lack the mental "tools" to solve a particular
                     problem. Thankfully, that's what

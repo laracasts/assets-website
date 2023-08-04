@@ -1,70 +1,64 @@
 <template>
     <div>
-        <h1 class="font-normal font-cabin text-3xl text-black leading-none mb-8">
-            Open Sans
-        </h1>
+        <div>
+            <header class="flex justify-between items-center mb-4">
+                <h2 class="font-medium text-xl">Poppins Font Family</h2>
+                <div class="text-grey-600 text-sm">Body Font</div>
+            </header>
 
-        <div
-            class="rounded-lg bg-grey-400 p-6 lg:py-12 lg:px-16 mb-10"
-            style="max-width: 522px"
-        >
-            <div class="flex justify-end mb-10 items-center">
-                <div class="rounded-full bg-black shadow w-8 h-8 mr-3"></div>
-                <span class="text-xs">#222222</span>
-            </div>
+            <div class="rounded-xl bg-blue/5 p-6 lg:py-12 lg:px-16 mb-10 font-poppins">
+                <div class="flex justify-between mb-6">
+                    <strong class="text-xl font-light">Poppins Light</strong>
+                    <span class="text-xl font-light">300</span>
+                </div>
 
-            <div class="flex justify-between mb-6">
-                <strong class="text-xl font-light">Open Sans Light</strong>
-                <span class="text-xl font-light">300</span>
-            </div>
+                <div class="flex justify-between mb-6">
+                    <strong class="text-xl font-normal">Poppins Regular</strong>
+                    <span class="text-xl font-normal">400</span>
+                </div>
 
-            <div class="flex justify-between mb-6">
-                <strong class="text-xl font-normal">Open Sans Regular</strong>
-                <span class="text-xl font-normal">400</span>
-            </div>
+                <div class="flex justify-between mb-6">
+                    <strong class="text-xl font-medium"
+                    >Poppins Medium</strong
+                    >
+                    <span class="text-xl font-medium">500</span>
+                </div>
 
-            <div class="flex justify-between mb-6">
-                <strong class="text-xl font-semibold"
-                    >Open Sans Semi Bold</strong
-                >
-                <span class="text-xl font-semibold">600</span>
-            </div>
-
-            <div class="flex justify-between">
-                <strong class="text-xl font-bold">Open Sans Bold</strong>
-                <span class="text-xl font-bold">700</span>
+                <div class="flex justify-between">
+                    <strong class="text-xl font-semibold">Poppins Semi Bold</strong>
+                    <span class="text-xl font-semibold">600</span>
+                </div>
             </div>
         </div>
 
-        <div
-            class="rounded-lg bg-black text-white p-6 lg:py-12 lg:px-16"
-            style="max-width: 522px"
-        >
-            <div class="flex justify-end mb-10 items-center">
-                <div class="rounded-full bg-white shadow w-8 h-8 mr-3"></div>
-                <span class="text-xs">#FFFFFF</span>
-            </div>
+        <div>
+            <header class="flex justify-between items-center mb-4">
+                <h2 class="font-medium text-xl">Cabin Font Family</h2>
+                <div class="text-grey-600 text-sm">Title Font</div>
+            </header>
 
-            <div class="flex justify-between mb-6">
-                <strong class="text-xl font-light">Open Sans Light</strong>
-                <span class="text-xl font-light">300</span>
-            </div>
+            <div class="rounded-xl bg-blue/5 p-6 lg:py-12 lg:px-16 mb-10 font-cabin">
+                <div class="flex justify-between mb-6">
+                    <strong class="text-xl font-normal">Cabin Regular</strong>
+                    <span class="text-xl font-normal">400</span>
+                </div>
 
-            <div class="flex justify-between mb-6">
-                <strong class="text-xl font-normal">Open Sans Regular</strong>
-                <span class="text-xl font-normal">400</span>
-            </div>
+                <div class="flex justify-between mb-6">
+                    <strong class="text-xl font-medium"
+                    >Cabin Medium</strong
+                    >
+                    <span class="text-xl font-medium">500</span>
+                </div>
 
-            <div class="flex justify-between mb-6">
-                <strong class="text-xl font-semibold"
-                    >Open Sans Semi Bold</strong
-                >
-                <span class="text-xl font-semibold">600</span>
-            </div>
+                <div class="flex justify-between mb-6">
+                    <strong class="text-xl font-semibold">Cabin Semi Bold</strong>
+                    <span class="text-xl font-semibold">600</span>
+                </div>
 
-            <div class="flex justify-between">
-                <strong class="text-xl font-bold">Open Sans Bold</strong>
-                <span class="text-xl font-bold">700</span>
+                <div class="flex justify-between">
+                    <strong class="text-xl font-bold">Cabin Bold</strong>
+                    <span class="text-xl font-bold">700</span>
+                </div>
             </div>
         </div>
     </div>

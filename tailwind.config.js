@@ -1,10 +1,11 @@
 module.exports = {
     content: ["app/**/*.php", "resources/**/*.{html,js,vue,php}"],
+    darkMode: "class",
     theme: {
         extend: {
             backgroundImage: {
-                "blue-gradient-radial": "radial-gradient(circle at 0% 2%, #25395a, #162031 124%)",
-                "blue-dark-gradient-radial": "radial-gradient(circle at -37% -9%, #25395a, #162031 65%)"
+                "blue-gradient-radial": "radial-gradient(circle at 7% 5%, #21385e, #16243c 89%);",
+                "blue-dark-gradient-radial": "linear-gradient(to bottom right, #223b6a, #101725 600px)"
             }
         },
 
@@ -15,7 +16,7 @@ module.exports = {
             black: "#222222",
             "deep-black": "black",
 
-            "grey-100": "#FCFCFC",
+            "grey-100": "rgb(216, 227, 238)",
             "grey-200": "#F4F4F4",
             "grey-300": "#F7F8FC",
             "grey-400": "#EBEDF1",
@@ -74,15 +75,21 @@ module.exports = {
             "blue-darker": "#395177",
             "blue-800": "#344a71",
             "blue-900": "#0d131d",
-            "blue-1000": "rgba(50,138,241,0.04)",
+            "blue-1000": "#12233A",
             "blue-dark": "#2779bd",
             blue: "#328af1",
-            "blue-light": "#6cb2eb",
+            "blue-light": "#21c8f6",
             "blue-lighter": "#ECF3FC",
             "blue-300": "#CCE4FD",
             "blue-200": "#F2FAFF",
             "blue-100": "#F6F9FF",
             "blue-lightest": "#f2f9ff",
+
+            "panel-900": "#0d131d",
+            "panel-800": "#18273f",
+            "panel-700": "#19304e",
+            "panel-600": "#203759",
+            "panel-500": "#25416a",
 
             turquoise: "#00adec",
 
@@ -113,7 +120,9 @@ module.exports = {
             tooling: "#8B60ED",
             "tooling-light": "#B372BD",
             languages: "#F19A1A",
-            "languages-light": "#FFC73C"
+            "languages-light": "#FFC73C",
+            devops: "#253D63",
+            "devops-light": "#A1B6E5"
         },
 
         screens: {
@@ -131,7 +140,6 @@ module.exports = {
 
         fontFamily: {
             sans: [
-                "Poppins",
                 "system-ui",
                 "BlinkMacSystemFont",
                 "-apple-system",
@@ -166,7 +174,7 @@ module.exports = {
         fontSize: {
             "3xs": ".6rem", // 9px
             "2xs": ".6666rem", // 10px
-            xs: ".834rem", // 12px
+            xs: ".80rem", // 12px
             sm: ".867rem", // 13px
             md: ".934rem", // 14px
             base: "1rem", // 15px
@@ -174,41 +182,12 @@ module.exports = {
             "2lg": "1.134rem", // 17px
             "3lg": "1.2rem", // 18px
             xl: "1.33333rem", // 20px
-            "2xl": "1.7rem", // 25.5px
-            "3xl": "1.875rem",
+            "2xl": "1.9rem", // 25.5px
+            "3xl": "2.2rem", // 33px
             "4xl": "2.4rem", // 36px
             "5xl": "2.6666rem", // 40px
             "6xl": "3.333rem", // 50px
             "7xl": "5.333rem" // 80px
-        },
-
-        fontWeight: {
-            hairline: 100,
-            thin: 200,
-            light: 300,
-            normal: 400,
-            medium: 500,
-            semibold: 600,
-            bold: 700,
-            extrabold: 800,
-            black: 900
-        },
-
-        lineHeight: {
-            off: 0,
-            none: 1,
-            tight: 1.25,
-            normal: 1.5,
-            loose: '40px',
-            max: 2.0,
-            relaxed: 2.0,
-            inherit: "inherit"
-        },
-
-        letterSpacing: {
-            tight: "-0.02em",
-            normal: "0",
-            wide: "0.05em"
         },
 
         textColor: (theme) => theme("colors"),
@@ -223,6 +202,7 @@ module.exports = {
             2: "1.5px",
             3: "3px",
             4: "4px",
+            6: "6px",
             8: "8px"
         },
 
@@ -242,173 +222,6 @@ module.exports = {
             "2xl": "1.25rem",
             "3xl": "2.8rem",
             full: "9999px"
-        },
-
-        width: {
-            auto: "auto",
-            px: "1px",
-            1: "0.25rem",
-            2: "0.5rem",
-            3: "0.8rem",
-            4: "1rem",
-            5: "1.3rem",
-            6: "1.5rem",
-            8: "2rem",
-            10: "2.5rem",
-            12: "3rem",
-            14: "3.5rem",
-            16: "4rem",
-            18: "4.5rem",
-            20: "5rem",
-            24: "6rem",
-            28: "7rem",
-            32: "8rem",
-            38: "10rem",
-            42: "11rem",
-            48: "12rem",
-            52: "14rem",
-            56: "15rem",
-            64: "16rem",
-            72: "18rem",
-            "1/2": "50%",
-            "1/3": "33.33333%",
-            "2/3": "66.66667%",
-            "1/4": "25%",
-            "3/4": "75%",
-            "1/5": "20%",
-            "2/5": "40%",
-            "3/5": "60%",
-            "4/5": "80%",
-            "1/6": "16.66667%",
-            "5/6": "83.33333%",
-            full: "100%",
-            screen: "100vw"
-        },
-
-        height: {
-            auto: "auto",
-            px: "1px",
-            1: "0.25rem",
-            2: "0.5rem",
-            3: "0.8rem",
-            4: "1rem",
-            5: "1.3rem",
-            6: "1.5rem",
-            8: "2rem",
-            10: "2.5rem",
-            12: "3rem",
-            14: "3.5rem",
-            16: "4rem",
-            18: "4.5rem",
-            20: "5rem",
-            24: "6rem",
-            28: "7rem",
-            32: "8rem",
-            48: "12rem",
-            64: "16rem",
-            full: "100%",
-            screen: "100vh"
-        },
-
-        minWidth: {
-            0: "0",
-            full: "100%",
-            "1/2": "50%",
-            "1/3": "33.33333%",
-            "2/3": "66.66667%",
-            "1/4": "25%",
-            "3/4": "75%",
-            "1/5": "20%",
-            "2/5": "40%",
-            "3/5": "60%",
-            "4/5": "80%"
-        },
-
-        minHeight: {
-            0: "0",
-            50: "50vh",
-            full: "100%",
-            screen: "100vh"
-        },
-
-        maxWidth: {
-            none: "none",
-            "2xs": "12rem",
-            xs: "20rem",
-            sm: "30rem",
-            md: "40rem",
-            lg: "50rem",
-            xl: "60rem",
-            "2xl": "70rem",
-            "3xl": "80rem",
-            "4xl": "90rem",
-            "5xl": "100rem",
-            "1/2": "50%",
-            "2/3": "75%",
-            full: "100%"
-        },
-
-        maxHeight: {
-            full: "100%",
-            half: "60vh",
-            "4/5": "80%",
-            80: "80vh",
-            90: "90vh",
-            screen: "100vh"
-        },
-
-        padding: {
-            px: "1px",
-            0: "0",
-            1: "0.25rem",
-            xs: "0.4rem",
-            2: "0.5rem",
-            25: "0.58rem",
-            3: "0.75rem",
-            4: "1rem",
-            5: "1.25rem",
-            6: "1.5rem",
-            7: "1.75rem",
-            8: "2rem",
-            9: "3rem",
-            10: "3rem",
-            12: "3rem",
-            15: "5rem",
-            16: "4rem",
-            inherit: "inherit"
-        },
-
-        margin: {
-            auto: "auto",
-            px: "1px",
-            0: "0",
-            1: "0.25rem",
-            2: "0.5rem",
-            3: "0.75rem",
-            4: "1rem",
-            5: "1.25rem",
-            6: "1.5rem",
-            7: "1.75rem",
-            8: "2rem",
-            9: "3rem",
-            10: "2.5rem",
-            12: "3rem",
-            15: "5rem",
-            16: '4rem',
-            20: "7rem",
-            30: "9rem",
-
-            "-1": "-0.25rem",
-            "-2": "-0.5rem",
-            "-3": "-0.75rem",
-            "-4": "-1rem",
-            "-5": "-1.25rem",
-            "-6": "-1.5rem",
-            "-8": "-2rem",
-            "-10": "-3rem",
-            "-15": "-5rem",
-            "-20": "-7rem",
-            "-30": "-9rem"
         },
 
         boxShadow: {
@@ -439,15 +252,20 @@ module.exports = {
             3: ".03",
             4: ".04",
             5: ".05",
+            7: ".07",
             10: ".10",
-            20: ".20",
+            13: ".13",
             15: ".15",
+            20: ".20",
             25: ".25",
             30: ".30",
             40: ".40",
             50: ".50",
             60: ".60",
+            70: ".70",
             75: ".75",
+            85: ".85",
+            90: ".90",
             97: ".97",
             100: "1"
         },

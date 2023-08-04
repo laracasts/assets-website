@@ -27,7 +27,7 @@
             </div>
         </div>
 
-        <h5 class="uppercase text-2xs text-grey font-normal" v-text="name"></h5>
+        <h5 class="text-2xs text-grey font-normal" v-text="name"></h5>
     </div>
 </template>
 

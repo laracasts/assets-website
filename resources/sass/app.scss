@@ -1,18 +1,35 @@
 @tailwind base;
 @tailwind components;
 
+body {
+    background-color: #151f32;
+    background-image: url(/images/upper-gradient.svg);
+    background-repeat: no-repeat;
+    background-size: 55%;
+    color: #fff;
+    font-family: Poppins, system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: Cabin, sans-serif;
+}
+
 .button {
-    @apply border border-grey-400 px-8 py-2 rounded-full text-black font-bold text-xs;
+    @apply px-8 py-2 rounded-full text-white font-semibold text-xs bg-blue/7;
     transition: all 0.3s;
 
     &:hover {
-        @apply bg-blue-light border-blue-light text-white;
+        @apply bg-blue/13 no-underline;
     }
 }
 
 a {
     text-decoration: none;
     @apply font-light;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 p {

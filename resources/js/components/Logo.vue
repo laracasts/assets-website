@@ -1,22 +1,18 @@
 <template>
     <div>
-        <h1 class="font-normal font-cabin text-3xl text-black leading-none mb-8">
-            Full Logo
-        </h1>
-
         <!-- Original Logo -->
         <div class="mb-12">
             <picture
                 style="height: 382px;"
-                class="block shadow rounded-lg flex items-center justify-center mb-6"
+                class="shadow rounded-xl flex items-center justify-center mb-6 bg-blue/5"
             >
-                <img src="/images/logo.svg" alt="logo" />
+                <img src="/images/logo-white.svg" alt="logo" />
             </picture>
 
             <div class="flex justify-between items-center">
-                <p>Original logo on <strong>white</strong> background</p>
+                <p>Primary logo on dark background.</p>
 
-                <a href="/images/logo.svg" class="button" download>logo.svg</a>
+                <a href="/images/logo-white.svg" class="button" download>logo.svg</a>
             </div>
         </div>
 
@@ -24,18 +20,17 @@
         <div class="mb-12">
             <picture
                 style="height: 382px;"
-                class="block shadow rounded-lg flex items-center justify-center mb-6 bg-blue"
+                class="shadow rounded-lg flex items-center justify-center mb-6 bg-blue/5"
             >
-                <img src="/images/negative-logo.svg" alt="logo" />
+                <img src="/images/logo-white-negative.svg" alt="logo" />
             </picture>
 
             <div class="flex justify-between items-center">
                 <p>
-                    Negative logo with accent on
-                    <strong>dark</strong> background
+                    Pure negative logo on dark background.
                 </p>
 
-                <a href="/images/negative-logo.svg" class="button" download>
+                <a href="/images/logo-white-negative.svg" class="button" download>
                     negative-logo.svg
                 </a>
             </div>
@@ -45,16 +40,16 @@
         <div>
             <picture
                 style="height: 382px;"
-                class="block shadow rounded-lg flex items-center justify-center mb-6 bg-black"
+                class="shadow rounded-lg flex items-center justify-center mb-6 bg-white"
             >
-                <img src="/images/pure-negative-logo.svg" alt="logo" />
+                <img src="/images/logo-dark.svg" alt="logo" />
             </picture>
 
             <div class="flex justify-between items-center">
-                <p>Pure negative logo on <strong>dark</strong> background</p>
+                <p>Primary logo on light background.</p>
 
                 <a
-                    href="/images/pure-negative-logo.svg"
+                    href="/images/logo-dark.svg"
                     class="button"
                     download
                 >

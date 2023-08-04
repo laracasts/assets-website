@@ -1,9 +1,5 @@
 <template>
     <div>
-        <h1 class="font-normal font-cabin text-3xl text-black leading-none mb-12">
-            Meet "Lary"
-        </h1>
-
         <div
             class="flex flex-col items-center text-center lg:flex-row lg:text-left mb-12"
         >
@@ -33,7 +29,7 @@
             <!-- larypeek.svg -->
             <div
                 style="width: 153px; height: 219px;"
-                class="border border-grey-400 rounded-lg flex flex-col items-center justify-center pt-6 pb-6 px-8 mx-auto mb-6 lg:mb-0 lg:ml-0 lg:mr-6"
+                class="rounded-xl bg-blue/5 flex flex-col items-center justify-center pt-6 pb-6 px-8 mx-auto mb-6 lg:mb-0 lg:ml-0 lg:mr-6"
             >
                 <a href="/images/mascot/larypeek.svg" class="mb-5 mt-auto">
                     <img
@@ -53,7 +49,7 @@
             <!-- larywink -->
             <div
                 style="width: 153px; height: 219px;"
-                class="border border-grey-400 rounded-lg flex flex-col items-center justify-center pt-6 pb-6 px-8 mx-auto mb-6 lg:mb-0 lg:ml-0 lg:mr-6"
+                class="bg-blue/5 rounded-xl flex flex-col items-center justify-center pt-6 pb-6 px-8 mx-auto mb-6 lg:mb-0 lg:ml-0 lg:mr-6"
             >
                 <a href="/images/mascot/larywink.svg" class="mb-5 mt-auto">
                     <img
@@ -73,7 +69,7 @@
             <!-- larysmart -->
             <div
                 style="width: 153px; height: 219px;"
-                class="border border-grey-400 rounded-lg flex flex-col items-center justify-center pt-6 pb-6 px-8 mx-auto mb-6 lg:mb-0 lg:ml-0 lg:mr-6"
+                class="bg-blue/5 rounded-xl flex flex-col items-center justify-center pt-6 pb-6 px-8 mx-auto mb-6 lg:mb-0 lg:ml-0 lg:mr-6"
             >
                 <a href="/images/mascot/larysmart.svg" class="mb-5 mt-auto">
                     <img
@@ -93,7 +89,7 @@
             <!-- larylab -->
             <div
                 style="width: 153px; height: 219px;"
-                class="border border-grey-400 rounded-lg flex flex-col items-center justify-center pt-6 pb-6 px-8 mx-auto mb-6 lg:mb-0 lg:mx-0"
+                class="bg-blue/5 rounded-xl flex flex-col items-center justify-center pt-6 pb-6 px-8 mx-auto mb-6 lg:mb-0 lg:mx-0"
             >
                 <a href="/images/mascot/larylab.svg" class="mb-5 mt-auto">
                     <img
