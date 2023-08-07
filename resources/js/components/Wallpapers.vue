@@ -13,7 +13,7 @@
         </header>
         <!-- Blue -->
         <div class="mb-12">
-            <a href="/images/wallpapers/clarity.png">
+            <a href="/images/wallpapers/wallpaper-blue.jpeg">
                 <img
                     src="/images/wallpapers/thumbnails/wallpaper-blue.png"
                     alt="Blue Laracasts Wallpaper"
@@ -24,7 +24,7 @@
 
             <div class="flex justify-center items-center">
                 <a
-                    href="/images/wallpapers/wallpaper-blue.png"
+                    href="/images/wallpapers/wallpaper-blue.jpeg"
                     class="button"
                     download
                 >
@@ -35,7 +35,7 @@
 
         <!-- Green -->
         <div class="mb-12">
-            <a href="/images/wallpapers/strength.png">
+            <a href="/images/wallpapers/wallpaper-green.jpeg">
                 <img
                     src="/images/wallpapers/thumbnails/wallpaper-green.png"
                     alt="Green Laracasts Wallpaper"
@@ -46,7 +46,7 @@
 
             <div class="flex justify-center items-center">
                 <a
-                    href="/images/wallpapers/wallpaper-green.png"
+                    href="/images/wallpapers/wallpaper-green.jpeg"
                     class="button"
                     download
                 >
@@ -57,7 +57,7 @@
 
         <!-- Purple -->
         <div class="mb-12">
-            <a href="/images/wallpapers/knowledge.png">
+            <a href="/images/wallpapers/wallpaper-purple.jpeg">
                 <img
                     src="/images/wallpapers/thumbnails/wallpaper-purple.png"
                     alt="Inspire Knowledge Laracasts Wallpaper"
@@ -68,7 +68,7 @@
 
             <div class="flex justify-center items-center">
                 <a
-                    href="/images/wallpapers/wallpaper-purple.png"
+                    href="/images/wallpapers/wallpaper-purple.jpeg"
                     class="button"
                     download
                 >
@@ -79,7 +79,7 @@
 
         <!-- Yellow -->
         <div class="mb-12">
-            <a href="/images/wallpapers/fun.png">
+            <a href="/images/wallpapers/wallpaper-yellow.jpeg">
                 <img
                     src="/images/wallpapers/thumbnails/wallpaper-yellow.png"
                     alt="Yellow Laracasts Wallpaper"
@@ -91,7 +91,7 @@
 
             <div class="flex justify-center items-center">
                 <a
-                    href="/images/wallpapers/wallpaper-yellow.png"
+                    href="/images/wallpapers/wallpaper-yellow.jpeg"
                     class="button"
                     download
                 >
@@ -102,7 +102,7 @@
 
         <!-- Red -->
         <div class="mb-12">
-            <a href="/images/wallpapers/experimenting.png">
+            <a href="/images/wallpapers/wallpaper-red.jpeg">
                 <img
                     src="/images/wallpapers/thumbnails/wallpaper-red.png"
                     alt="Red Laracasts Wallpaper"
@@ -113,7 +113,7 @@
 
             <div class="flex justify-center items-center">
                 <a
-                    href="/images/wallpapers/wallpaper-red.png"
+                    href="/images/wallpapers/wallpaper-red.jpeg"
                     class="button"
                     download
                 >
