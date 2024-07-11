@@ -1,8 +1,8 @@
 <template>
     <div>
-        <div class="lg:flex mb-12">
+        <div class="lg:flex mb-10">
             <picture
-                class="bg-blue/5 rounded-xl py-6 px-10 lg:mr-10 flex-1 flex justify-center items-center"
+                class="bg-card-700 rounded-xl py-6 px-10 lg:mr-10 flex-1 flex justify-center items-center"
             >
                 <img
                     src="/images/illustrations/clarity.svg"
@@ -31,9 +31,9 @@
             </div>
         </div>
 
-        <div class="lg:flex mb-12">
+        <div class="lg:flex mb-10">
             <picture
-                class="bg-blue/5 rounded-xl py-6 px-10 lg:mr-10 flex flex-1 justify-center items-center"
+                class="bg-card-700 rounded-xl py-6 px-10 lg:mr-10 flex flex-1 justify-center items-center"
             >
                 <img
                     src="/images/illustrations/fun.svg"
@@ -60,9 +60,9 @@
             </div>
         </div>
 
-        <div class="lg:flex mb-12">
+        <div class="lg:flex mb-10">
             <picture
-                class="bg-blue/5 rounded-xl py-6 px-10 lg:mr-10 flex flex-1 justify-center items-center"
+                class="bg-card-700 rounded-xl py-6 px-10 lg:mr-10 flex flex-1 justify-center items-center"
             >
                 <img
                     src="/images/illustrations/experiment.svg"
@@ -91,9 +91,9 @@
             </div>
         </div>
 
-        <div class="lg:flex mb-12">
+        <div class="lg:flex mb-10">
             <picture
-                class="bg-blue/5 rounded-xl py-6 px-10 lg:mr-10 flex flex-1 justify-center items-center"
+                class="bg-card-700 rounded-xl py-6 px-10 lg:mr-10 flex flex-1 justify-center items-center"
             >
                 <img
                     src="/images/illustrations/strength.svg"
@@ -123,9 +123,9 @@
             </div>
         </div>
 
-        <div class="lg:flex mb-12">
+        <div class="lg:flex mb-10">
             <picture
-                class="bg-blue/5 rounded-xl py-6 px-10 lg:mr-10 flex flex-1 justify-center items-center"
+                class="bg-card-700 rounded-xl py-6 px-10 lg:mr-10 flex flex-1 justify-center items-center"
             >
                 <img
                     src="/images/illustrations/information.svg"

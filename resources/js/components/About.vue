@@ -4,7 +4,7 @@
             So, Hi!
         </h1>
 
-        <div class="md:flex md:items-center mb-12 bg-blue/5 rounded-xl px-8">
+        <div class="md:flex md:items-center mb-10 bg-card-700 rounded-xl px-8">
             <div>
                 <div
                     class="flex flex-col block shadow rounded-lg flex items-center justify-center mr-10 py-10 mb-6 md:mb-0"
@@ -26,7 +26,7 @@
 
                     <a
                         href="https://laracasts.com/@jeffreyway"
-                        class="button bg-blue/5 text-white w-5/6 text-center py-3 border-none hover:bg-blue/13"
+                        class="button bg-card-700 text-white w-5/6 text-center py-3 border-none hover:bg-blue/13"
                     >Say Hi</a
                     >
                 </div>
@@ -49,7 +49,7 @@
             </div>
         </div>
 
-        <div class="md:flex md:items-center bg-blue/5 rounded-xl px-8">
+        <div class="md:flex md:items-center bg-card-700 rounded-xl px-8">
             <div>
                 <div
                     class="flex flex-col block shadow rounded-lg flex items-center justify-center mr-10 py-10 mb-6 md:mb-0"
@@ -69,7 +69,7 @@
 
                     <a
                         href="https://laracasts.com/@_adrian"
-                        class="button bg-blue/5 text-white w-5/6 text-center py-3 border-none hover:bg-blue/13"
+                        class="button bg-card-700 text-white w-5/6 text-center py-3 border-none hover:bg-blue/13"
                     >Say Hi</a
                     >
                 </div>

@@ -8,7 +8,7 @@
         </p>
 
         <div
-            class="rounded-xl bg-blue/5 flex items-center justify-center mb-8"
+            class="rounded-xl bg-card-700 flex items-center justify-center mb-8"
         >
             <div ref="lottie" class="w-64" style="height: 457px"></div>
         </div>

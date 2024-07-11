@@ -167,7 +167,6 @@ module.exports = {
             ],
             mono: ["Menlo", "Monaco", "Consolas", "Liberation Mono", "Courier New", "monospace"],
             muli: ["Muli", "sans-serif"],
-            poppins: ["Poppins", "sans-serif"],
             cabin: ["Cabin", "sans-serif"]
         },
 

@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="mb-16">
+        <div class="mb-10">
             <h1 class="mb-8 text-2xl font-medium">Primaries</h1>
 
             <div class="flex flex-wrap gap-x-4 gap-y-4">
@@ -20,7 +20,7 @@
             </div>
         </div>
 
-        <div class="mb-16">
+        <div class="mb-10">
             <h1 class="mb-8 text-2xl font-medium">Secondaries</h1>
 
             <div class="flex flex-wrap gap-x-4 gap-y-4">

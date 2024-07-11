@@ -1,28 +1,28 @@
 <template>
-    <div>
+    <div class="pb-10">
         <!-- Original Logo -->
-        <div class="mb-12">
+        <div class="mb-10">
             <picture
                 style="height: 382px;"
-                class="shadow rounded-xl flex items-center justify-center mb-6 bg-blue/5"
+                class="shadow rounded-xl flex items-center justify-center mb-6 bg-card-700"
             >
-                <img src="/images/logo-white.svg" alt="logo" />
+                <img src="/images/primary-logo.svg" alt="logo" />
             </picture>
 
             <div class="flex justify-between items-center">
                 <p>Primary logo on dark background.</p>
 
-                <a href="/images/logo-white.svg" class="button" download>logo.svg</a>
+                <a href="/images/primary-logo.svg" class="button underline" download>white-logo.svg</a>
             </div>
         </div>
 
         <!-- Negative Logo With Accent -->
-        <div class="mb-12">
+        <div class="mb-10">
             <picture
                 style="height: 382px;"
-                class="shadow rounded-lg flex items-center justify-center mb-6 bg-blue/5"
+                class="shadow rounded-lg flex items-center justify-center mb-6 bg-card-700"
             >
-                <img src="/images/logo-white-negative.svg" alt="logo" />
+                <img src="/images/primary-logo-negative.svg" alt="logo" />
             </picture>
 
             <div class="flex justify-between items-center">
@@ -30,30 +30,52 @@
                     Pure negative logo on dark background.
                 </p>
 
-                <a href="/images/logo-white-negative.svg" class="button" download>
+                <a href="/images/primary-logo-negative.svg" class="button underline" download>
                     negative-logo.svg
                 </a>
             </div>
         </div>
 
         <!-- Pure Negative Logo -->
-        <div>
+        <div class="mb-10">
             <picture
                 style="height: 382px;"
                 class="shadow rounded-lg flex items-center justify-center mb-6 bg-white"
             >
-                <img src="/images/logo-dark.svg" alt="logo" />
+                <img src="/images/secondary-logo.svg" alt="logo" />
             </picture>
 
             <div class="flex justify-between items-center">
                 <p>Primary logo on light background.</p>
 
                 <a
-                    href="/images/logo-dark.svg"
-                    class="button"
+                    href="/images/secondary-logo.svg"
+                    class="button underline"
                     download
                 >
-                    pure-negative-logo.svg
+                    dark-logo.svg
+                </a>
+            </div>
+        </div>
+
+        <!-- CreatorSeries logo-->
+        <div>
+            <picture
+                style="height: 382px;"
+                class="shadow rounded-lg flex items-center justify-center mb-6 bg-card-700"
+            >
+                <img src="/images/creatorseries-primary-logo.svg" alt="logo" />
+            </picture>
+
+            <div class="flex justify-between items-center">
+                <p>CreatorSeries logo on dark background.</p>
+
+                <a
+                    href="/images/creatorseries-primary-logo.svg"
+                    class="button underline"
+                    download
+                >
+                    creatorseries-white-logo.svg
                 </a>
             </div>
         </div>
