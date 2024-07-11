@@ -91,6 +91,6 @@
         </div>
     </div>
 
-    <script src="/js/app.js?v=20"></script>
+    <script src="/js/app.js?v=21"></script>
 </body>
 </html>
